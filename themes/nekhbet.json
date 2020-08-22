@@ -2,8 +2,8 @@
     "name": "Nekhbet",
     "type": "dark",
     "colors": {
-        "editor.background": "#000000",
-        "editor.foreground": "#aaaaaa",
+        "editor.background": "#1B1B1B",
+        "editor.foreground": "#f5f5f5",
         "editor.lineHighlightBackground": "#313131"
     },
     "tokenColors": [
@@ -13,26 +13,31 @@
                 "keyword.control.import"
             ],
             "settings": {
-                "foreground": "#018786"
+                "foreground": "#de2872"
                
             }
         },
         {
             "name": "Keyword",
             "scope": [
-                "keyword.control.flow"
+                "keyword.control.flow",
+                "keyword.control.from",
+                "variable.language.this",
+                "meta.export.default",
+                "storage.modifier"
             ],
             "settings": {
-                "foreground": "#EF6C00"
+                "foreground": "#ff2e83"
             }
         },
         {
             "name": "Storage",
             "scope": [
-                "storage.type"
+                "storage.type",
+                "keyword.operator.comparison.js"
             ],
             "settings": {
-                "foreground": "#6200ee"
+                "foreground": "#00ea00"
             }
         },
         {
@@ -42,6 +47,73 @@
             ],
             "settings": {
                 "foreground": "#bb86fc"
+            }
+        },
+        {
+            "name": "Single quoted Strings",
+            "scope": [
+                "string.quoted.single"
+            ],
+            "settings": {
+                "foreground": "#a777e9"
+            }
+        },
+        {
+            "name": "Class",
+            "scope": [
+                "storage.type.class"
+            ],
+            "settings": {
+                "foreground": "#41cee0"
+            }
+        },
+        {
+            "name": "Curly Brackets",
+            "scope": [
+                "punctuation.definition.block"
+            ],
+            "settings": {
+                "foreground": "#6fd0c8"
+            }
+        },
+        {
+            "name": "Normal Brackets",
+            "scope": [
+                "punctuation.definition.block"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "New Keyword",
+            "scope": [
+                "keyword.operator.new"
+            ],
+            "settings": {
+                "foreground": "#e094c9"
+            }
+        },
+        {
+            "name": "Const Variable",
+            "scope": [
+                "variable.other.constant",
+                "variable.other.object",
+                "meta.object-literal.key.js"
+            ],
+            "settings": {
+                "foreground": "#46e1f4"
+            }
+        },
+        {
+            "name": "Const Variable",
+            "scope": [
+                "variable.other.constant",
+                "variable.other.object",
+                "meta.object-literal.key.js"
+            ],
+            "settings": {
+                "foreground": "#46e1f4"
             }
         }
        
