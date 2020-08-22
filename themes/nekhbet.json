@@ -1,0 +1,49 @@
+{
+    "name": "Nekhbet",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#aaaaaa",
+        "editor.lineHighlightBackground": "#313131"
+    },
+    "tokenColors": [
+        {
+            "name": "Import",
+            "scope": [
+                "keyword.control.import"
+            ],
+            "settings": {
+                "foreground": "#018786"
+               
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": [
+                "keyword.control.flow"
+            ],
+            "settings": {
+                "foreground": "#EF6C00"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": [
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#6200ee"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function."
+            ],
+            "settings": {
+                "foreground": "#bb86fc"
+            }
+        }
+       
+    ]
+}
