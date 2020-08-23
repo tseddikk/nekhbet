@@ -1,30 +1,20 @@
 {
   "name": "nekhbet",
   "version": "1.0.0",
+  "displayName": "Nekhbet Dark Theme",
   "description": "A mordern contrasting theme for Visual Studio Code.",
-  "scripts": {
-    "test": "npm test"
-  },
+  "publisher": "inamdarminaz",
+  "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+  "categories": [
+      "Themes"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inamdarminaz/nekhbet.git"
+    "url": "https://github.com/inamdarminaz/nekhbet.git"
   },
-  "publisher": "Minaz Inamdar",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nekhbet",
-                "uiTheme": "vs-dark",
-                "path": "./themes/nekhbet.json"
-            }
-        ]
-    },
   "keywords": [
     "bright",
     "mordern",
@@ -32,6 +22,20 @@
     "theme",
     "black"
   ],
+  "galleryBanner": {
+    "color": "#193549",
+    "theme": "dark"
+  },
+  "contributes": {
+      "themes": [
+            {
+                "label": "Nekhbet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nekhbet.json"
+            }
+        ]
+    },
+
   "author": "Minaz Inamdar",
   "license": "ISC",
   "bugs": {

@@ -115,6 +115,20 @@
             "settings": {
                 "foreground": "#ccc"
             }
+        },
+        {
+            "name": "[Italic for Operator Mono]",
+            "scope": [
+              "modifier",
+              "this",
+              "comment",
+              "storage.modifier.js",
+              "entity.other.attribute-name.js",
+              "entity.other.attribute-name.html"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
         }
             
        
