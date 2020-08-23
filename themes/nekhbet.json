@@ -10,36 +10,17 @@
         {
             "name": "Keyword",
             "scope": [
-                "keyword.control.flow",
-                "keyword.control.import",
-                "keyword.control.from",
-                "keyword.control.export",
-                "keyword.control.conditional",
-                "keyword.control.trycatch",
-                "variable.language.this",
-                "variable.language.arguments",
-                "keyword.control.loop",
-                "keyword.control.switch",
-                "constant.language.null",
-                "storage.type.class",
-                "keyword.control.default",
-                "keyword.other.debugger",
-                "variable.language.super",
-                "storage.modifier",
-                "keyword.operator.new",
-                "storage.type"
+                "keyword", "storage.type.class"
             ],
             "settings": {
                 "foreground": "#f62c7e"
             }
         },
         {
-            "name": "Comparisons",
+            "name": "Operator",
             "scope": [
-                "keyword.operator.comparison",
-                "keyword.operator.ternary",
-                "keyword.operator.arithmetic",
-                "keyword.operator.assignment"
+                "keyword.operator.assignment",
+                "keyword.operator.arithematic"
             ],
             "settings": {
                 "foreground": "#00ea00"
@@ -49,25 +30,17 @@
             "name": "Functions",
             "scope": [
                 "entity.name.function.",
-                "support.class.builtin"
+                "support.class.builtin",
+                "support.function"
             ],
             "settings": {
                 "foreground": "#46e1f4"
             }
         },
         {
-            "name": "Single quoted Strings",
+            "name": "Quoted Strings",
             "scope": [
-                "string.quoted.single"
-            ],
-            "settings": {
-                "foreground": "#bb86fc"
-            }
-        },
-        {
-            "name": "Double quoted Strings",
-            "scope": [
-                "string.quoted.double"
+                "string.quoted"
             ],
             "settings": {
                 "foreground": "#bb86fc"
@@ -92,16 +65,6 @@
             }
         },
         {
-            "name": "Comment",
-            "scope": [
-                "punctuation.definition.comment",
-                "comment.line.double-slash"
-            ],
-            "settings": {
-                "foreground": "#ffe388"
-            }
-        },
-        {
             "name": "Tags",
             "scope": [
                 "entity.name.tag",
@@ -110,7 +73,50 @@
             "settings": {
                 "foreground": "#fd6662"
             }
+        },
+        {
+              "name": "Comment",
+              "scope": "comment",
+              "settings": {
+                "foreground": "#ffe388"
+              }
+        },
+        {
+              "name": "Constant",
+              "scope": "constant",
+              "settings": {
+                "foreground": "#9FA8DA"
+              }
+        },
+        {
+              "name": "Invalid",
+              "scope": "invalid",
+              "settings": {
+                "foreground": "#f44542"
+              }
+        },
+        {
+            "name": "[JAVASCRIPT] - Storage Type Function",
+            "scope": "source.js storage.type.function",
+            "settings": {
+              "foreground": "#fb94ff"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Variable Language",
+            "scope": "variable.language, entity.name.type.class.js",
+            "settings": {
+                "foreground": "#fb94ff"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Inherited Component",
+            "scope": "entity.other.inherited-class.js",
+            "settings": {
+                "foreground": "#ccc"
+            }
         }
+            
        
     ]
 }
