@@ -4,7 +4,7 @@
 	"displayName": "Nekhbet Dark Theme",
 	"description": "A mordern contrasting theme for Visual Studio Code.",
 	"publisher": "inamdarminaz",
-	"icon": "images/logo.png",
+	"icon": "images/logo2.png",
 	"engines": {
 		"vscode": "^1.22.0"
 	},
