@@ -40,7 +40,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#46e1f4"
+                "foreground": "#00e0e0"
             }
         },
         {
@@ -145,7 +145,7 @@
               "source.stylus support.constant"
             ],
             "settings": {
-              "foreground": "#6ac5ca"
+              "foreground": "#c1f6f2"
             }
           },
           {
