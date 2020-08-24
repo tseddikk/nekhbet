@@ -21,8 +21,5 @@ Nekhbet is currently themed for Javascript, HTML and CSS. In the upcoming releas
 5. Code > Preferences > Color Theme > **nekhbet**
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Thankyou 💕
 
-
-### Note
-If you do like this theme give it a [Star](https://github.com/inamdarminaz/nekhbet) ⭐️ as it helps other users to find it as well. Thankyou 💕
