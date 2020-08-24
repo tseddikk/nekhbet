@@ -8,7 +8,7 @@ Nekhbet is currently themed for Javascript, HTML and CSS. In the upcoming releas
 ![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png)
 
 ### NEKHBET CSS
-![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png)
+![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png?raw=true)
 
 ### NEKHBET HTML
 ![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetHTML.png)
