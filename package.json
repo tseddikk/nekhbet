@@ -1,45 +1,49 @@
 {
-  "name": "nekhbet",
-  "version": "1.0.0",
-  "displayName": "Nekhbet Dark Theme",
-  "description": "A mordern contrasting theme for Visual Studio Code.",
-  "publisher": "inamdarminaz",
-  "icon": "images/logo.png",
-    "engines": {
-        "vscode": "^1.22.0"
-    },
-  "categories": [
-      "Themes"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/inamdarminaz/nekhbet.git"
-  },
-  "keywords": [
-    "bright",
-    "mordern",
-    "vsc",
-    "theme",
-    "black"
-  ],
-  "galleryBanner": {
-    "color": "#193549",
-    "theme": "dark"
-  },
-  "contributes": {
-      "themes": [
-            {
-                "label": "Nekhbet",
-                "uiTheme": "vs-dark",
-                "path": "./themes/nekhbet.json"
-            }
-        ]
-    },
-
-  "author": "Minaz Inamdar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/inamdarminaz/nekhbet/issues"
-  },
-  "homepage": "https://github.com/inamdarminaz/nekhbet#readme"
+	"name": "nekhbet",
+	"version": "1.0.0",
+	"displayName": "Nekhbet Dark Theme",
+	"description": "A mordern contrasting theme for Visual Studio Code.",
+	"publisher": "inamdarminaz",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/inamdarminaz/nekhbet.git"
+	},
+	"keywords": [
+		"bright",
+		"mordern",
+		"vsc",
+		"theme",
+		"black"
+	],
+	"galleryBanner": {
+		"color": "#193549",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nekhbet",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nekhbet.json"
+			}
+		]
+	},
+	"author": "Minaz Inamdar",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/inamdarminaz/nekhbet/issues"
+	},
+	"homepage": "https://github.com/inamdarminaz/nekhbet#readme",
+	"__metadata": {
+		"id": "6ecb0a4f-03d7-4234-b776-8fdc7fb1bea3",
+		"publisherDisplayName": "inamdarminaz",
+		"publisherId": "b8fb6e89-4e13-428c-840f-29608727f3af"
+	}
 }
