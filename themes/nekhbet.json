@@ -25,6 +25,7 @@
                 "keyword.operator.assignment",
                 "keyword.operator.arithmetic",
                 "keyword.operator.ternary",
+                "keyword.operator.logical",
                 "keyword.operator.comparison"
             ],
             "settings": {
