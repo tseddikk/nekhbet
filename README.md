@@ -8,10 +8,10 @@ Nekhbet is currently themed for Javascript, HTML and CSS. In the upcoming releas
 ![Preview](images/NekhbetJS.png)
 
 ### NEKHBET CSS
-![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png)
+![Preview](images/NekhbetCSS.png)
 
 ### NEKHBET HTML
-![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetHTML.png)
+![Preview](images/NekhbetHTML.png)
 
 ## Installation
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
