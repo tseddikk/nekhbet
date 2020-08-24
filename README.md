@@ -5,7 +5,11 @@ Nekhbet is a Visual Studio Code theme for coders who enjoy modern and vibrant co
 Nekhbet is currently themed for Javascript, HTML and CSS. In the upcoming releases it will be themed for more languages.
 
 ### NEKHBET JAVASCRIPT
-![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png?raw=true)
+![Preview](https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png)
+
+<p>
+  <img src="https://github.com/inamdarminaz/nekhbet/blob/master/images/NekhbetCSS.png" alt="Preview" width=auto>
+</p>
 
 ### NEKHBET CSS
 ![Preview](images/NekhbetCSS.png)
