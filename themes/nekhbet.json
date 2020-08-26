@@ -33,7 +33,7 @@
             }
         },
         {
-            "name": "Functions",
+            "name": "Function",
             "scope": [
                 "entity.name.function.",
                 "support.class.builtin",
