@@ -1,0 +1,187 @@
+{
+    "name": "Nekhbet",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1B1B1B",
+        "editor.foreground": "#f5f5f5",
+        "editor.lineHighlightBackground": "#313131"
+    },
+    "tokenColors": [
+        {
+            "name": "Keyword",
+            "scope": [
+                "keyword", 
+                "storage.type.class",
+                "storage.type",
+                "variable.language"
+            ],
+            "settings": {
+                "foreground": "#f62c7e"
+            }
+        },
+        {
+            "name": "Operator",
+            "scope": [
+                "keyword.operator.assignment",
+                "keyword.operator.arithmetic",
+                "keyword.operator.ternary",
+                "keyword.operator.logical",
+                "keyword.operator.comparison"
+            ],
+            "settings": {
+                "foreground": "#00ea00"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function.",
+                "support.class.builtin",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#00e0e0"
+            }
+        },
+        {
+            "name": "Quoted Strings",
+            "scope": [
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#bb86fc"
+            }
+        },
+        
+        {
+            "name": "[ JAVASCRIPT && HTML && CSS ]Tags",
+            "scope": [
+                "entity.name.tag.js",
+                "entity.name.tag.html",
+                "entity.name.tag.css",
+                "punctuation.definition.tag",
+                "support.class.component.js"
+            ],
+            "settings": {
+                "foreground": "#f9a891"
+            }
+        },
+        {
+              "name": "Comment",
+              "scope": "comment",
+              "settings": {
+                "foreground": "#ffe388"
+              }
+        },
+        {
+              "name": "Constant",
+              "scope": "constant",
+              "settings": {
+                "foreground": "#"
+              }
+        },
+        {
+              "name": "Invalid",
+              "scope": "invalid",
+              "settings": {
+                "foreground": "#f44542"
+              }
+        },
+        {
+            "name": "[JAVASCRIPT] - Storage Type Function",
+            "scope": "source.js storage.type.function",
+            "settings": {
+              "foreground": "#fb94ff"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Class",
+            "scope": "entity.name.type.class.js",
+            "settings": {
+                "foreground": "#ffec3d"
+            }
+        },
+        {
+            "name": "[JAVASCRIPT] - Inherited Component",
+            "scope": "entity.other.inherited-class.js",
+            "settings": {
+                "foreground": "#ccc"
+            }
+        },
+        {
+            "name": "[CSS] - Entity",
+            "scope": ["source.css entity", "source.stylus entity"],
+            "settings": {
+              "foreground": "#ff8cae"
+            }
+          },
+          {
+            "name": "[CSS] - ID Selector",
+            "scope": "entity.other.attribute-name.id.css",
+            "settings": {
+              "foreground": "#ffb554e7"
+            }
+          },
+          {
+            "name": "[CSS] - Element Selector",
+            "scope": "entity.name.tag",
+            "settings": {
+              "foreground": "#9effffe7"
+            }
+          },
+          {
+            "name": "[CSS] - Support",
+            "scope": ["source.css support", "source.stylus support"],
+            "settings": {
+              "foreground": "#d39cd6"
+            }
+          },
+          {
+            "name": "[CSS] - Constant",
+            "scope": [
+              "source.css constant",
+              "source.css support.constant",
+              "source.stylus constant",
+              "source.stylus support.constant"
+            ],
+            "settings": {
+              "foreground": "#c1f6f2"
+            }
+          },
+          {
+            "name": "[CSS] - String",
+            "scope": [
+              "source.css string",
+              "source.css punctuation.definition.string",
+              "source.stylus string",
+              "source.stylus punctuation.definition.string"
+            ],
+            "settings": {
+              "foreground": "#ffee80e3"
+            }
+          },
+          {
+            "name": "[CSS] - Variable",
+            "scope": ["source.css variable", "source.stylus variable"],
+            "settings": {
+              "foreground": "#9effffea"
+            }
+          },
+        {
+            "name": "[Italic for Operator Mono]",
+            "scope": [
+              "modifier",
+              "this",
+              "comment",
+              "storage.modifier.js",
+              "entity.other.attribute-name.js",
+              "entity.other.attribute-name.html"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+        }
+            
+       
+    ]
+}
